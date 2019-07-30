@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    /* text-decoration-line: underline; */
+    color: #008c38;
+    font-family: Arial;
+}
+html, body{
+    box-sizing: border-box;
+    /* background-color: #F5F5F5; */
+    background-color:#b3f0ff;
+}
+#flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:  #e6faff;
+
+  
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    float: right;
+}
+
+.imageDiv{
+    width: 30%;
+    /* border: 1px solid black; */
+}
+#hylabsLogo{
+    width: 50%;
+    float: left;
+}
+
+input[type=submit]{
+background-color:   #4db8ff;
+height: 30px;
+border-radius: 10px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+}
+
+
+
+
+form{
+    margin: 0 auto; 
+    width: 250px;
+    height: 200px;  
+    font-size: 25px;
+    /* background-color: #cecece; */
+    padding: 10px;
+    border-radius: 10px;
+    background:#e6faff;
+}
