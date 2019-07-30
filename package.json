@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "chokidar": "^3.0.2",
+    "config": "^3.2.2",
     "cors": "^2.8.5",
     "csv-parser": "^2.3.0",
     "csv-writer": "^1.5.0",
@@ -16,7 +17,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start-ofir": "NODE_ENV=ofir node app"
   },
   "author": "",
   "license": "ISC"
